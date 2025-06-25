@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ipr2025q1/src/animation.dart';
+import 'package:ipr2025q1/src/animation2.dart';
 import 'package:ipr2025q1/src/custom_paint.dart';
 import 'package:ipr2025q1/src/gesture.dart';
 import 'package:ipr2025q1/src/life_cycle.dart';
@@ -26,6 +27,7 @@ final pages = {
   'Draggable + AutoScroll': GestureDragAutoScrollDemo(),
   'Stream': StreamScreen(),
   'Animation': AnimationPage(),
+  'Animation2': AnimationPage2(),
   'MVC': MvcDemo(),
   'MVI': MviDemo(),
   'MVVM': MvvmDemo(),
